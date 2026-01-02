@@ -13,7 +13,7 @@ function App() {
 
       <div style={buttons}>
         <a
-  href="https://https://order.spoton.com/so-ricanmex-frappes-and-grill-23636/milwaukee-wi/680ff8a154f401ec3b2a7f23"
+  href="https//order.spoton.com/so-ricanmex-frappes-and-grill-23636/milwaukee-wi/680ff8a154f401ec3b2a7f23"
   target="_blank"
   rel="noopener noreferrer"
   style={{ ...button, background: "#000" }}
@@ -22,7 +22,7 @@ function App() {
 </a>
 
         <a
-          href="https://https://order.online/store/2631297?redirected=true&delivery=true"
+          href="https://order.online/store/2631297?redirected=true&delivery=true"
           target="_blank"
           rel="noopener noreferrer"
           style={{ ...button, background: "#ff3008" }}
