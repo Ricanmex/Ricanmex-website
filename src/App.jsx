@@ -22,7 +22,7 @@ function App() {
 </a>
 
         <a
-          href="https://www.doordash.com/https://order.online/store/2631297?redirected=true&delivery=true
+          href="https://www.doordash.com/https://order.online/store/2631297"
           target="_blank"
           rel="noopener noreferrer"
           style={{ ...button, background: "#ff3008" }}
@@ -31,7 +31,7 @@ function App() {
         </a>
 
         <a
-          href="https://www.ubereats.com/https://www.ubereats.com/
+          href="https://www.ubereats.com/store/ricanmex-frappes-&-grill/O6GRJ24OWEaPINFcVX-aJw?diningMode=DELIVERY"
           target="_blank"
           rel="noopener noreferrer"
           style={{ ...button, background: "#06c167" }}
