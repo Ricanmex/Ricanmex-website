@@ -1,18 +1,31 @@
 function App() {
   return (
     <div style={container}>
-      <h1>Ricanmex Frappes & Grill</h1>
+      <div style={card}>
+        <h1>Ricanmex Frappes & Grill</h1>
 
-      <h2>Order Online</h2>
+        <p style={info}>
+          4350 S 27th St, Milwaukee, WI 53221
+        </p>
 
-      <p style={note}>
-        Pickup orders are cheapest when ordered directly.
-        <br />
-        Delivery prices may vary on third-party platforms.
-      </p>
+        <p style={info}>
+          📞 <a href="tel:14145533748" style={link}>414-553-3748</a>
+        </p>
 
-      <div style={buttons}>
-        <a
+        <p style={info}>
+          ⏰ Monday – Friday • 11:00 AM – 7:00 PM
+        </p>
+
+        <h2>Order Online</h2>
+
+        <p style={note}>
+          Pickup orders are cheapest when ordered directly.
+          <br />
+          Delivery prices may vary on third-party platforms.
+        </p>
+
+        <div style={buttons}>
+          <a
   href="https://order.spoton.com/so-ricanmex-frappes-and-grill-23636/milwaukee-wi/680ff8a154f401ec3b2a7f23"
   target="_blank"
   rel="noopener noreferrer"
