@@ -1,64 +1,74 @@
-import { motion } from "framer-motion";
-import { MapPin, Phone, Clock } from "lucide-react";
-
-export default function App() {
+function App() {
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", margin: 0 }}>
-      {/* HERO */}
-      <section
-        style={{
-          background: "linear-gradient(to right, #c1121f, #003049, #fcbf49)",
-          color: "white",
-          padding: "80px 20px",
-          textAlign: "center",
-        }}
-      >
-        <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
-          <h1 style={{ fontSize: "48px", marginBottom: "10px" }}>
-            Ricanmex Frappes & Grill
-          </h1>
-          <p style={{ fontSize: "20px" }}>
-            Puerto Rican & Mexican Flavors • Fresh Frappes
-          </p>
-        </motion.div>
-      </section>
+    <div style={container}>
+      <h1>Ricanmex Frappes & Grill</h1>
 
-      {/* ABOUT */}
-      <section style={{ padding: "50px 20px", maxWidth: "900px", margin: "auto" }}>
-        <h2>About Us</h2>
-        <p style={{ lineHeight: "1.6" }}>
-          Ricanmex Frappes & Grill brings together the bold flavors of Puerto Rico
-          and Mexico. From savory plates to refreshing frappes, everything is
-          made fresh, family-owned, and crafted with love for our community.
-        </p>
-      </section>
+      <h2>Order Online</h2>
 
-      {/* INFO */}
-      <section style={{ background: "#f4f4f4", padding: "40px 20px" }}>
-        <div style={{ maxWidth: "900px", margin: "auto" }}>
-          <p><MapPin size={18} /> 4350 S 27th St, Milwaukee, WI 53221</p>
-          <p><Phone size={18} /> (414) 553-3748</p>
-          <p><Clock size={18} /> Dine-In • Takeout • Delivery</p>
-        </div>
-      </section>
+      <p style={note}>
+        Pickup orders are cheapest when ordered directly.
+        <br />
+        Delivery prices may vary on third-party platforms.
+      </p>
 
-      {/* CTA */}
-      <section style={{ padding: "40px 20px", textAlign: "center" }}>
-        <h2>Visit Us Today</h2>
-        <p>Experience Puerto Rican & Mexican flavors in one place.</p>
-      </section>
+      <div style={buttons}>
+        <a
+          href="https://order.spoton.com/https://order.spoton.com/so-ricanmex-frappes-and-grill-23636/milwaukee-wi/680ff8a154f401ec3b2a7f23
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ ...button, background: "#000" }}
+        >
+          Order Pickup
+        </a>
 
-      {/* FOOTER */}
-      <footer
-        style={{
-          background: "#000",
-          color: "#fff",
-          padding: "20px",
-          textAlign: "center",
-        }}
-      >
-        © {new Date().getFullYear()} Ricanmex Frappes & Grill
-      </footer>
+        <a
+          href="https://www.doordash.com/https://order.online/store/2631297?redirected=true&delivery=true
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ ...button, background: "#ff3008" }}
+        >
+          Order on DoorDash
+        </a>
+
+        <a
+          href="https://www.ubereats.com/https://www.ubereats.com/store/ricanmex-frappes-&-grill/O6GRJ24OWEaPINFcVX-aJw?d=2026-01-02&diningMode=DELIVERY&et=720&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEzMTQlMjBTJTIwTGF5dG9uJTIwQmx2ZCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMjVmNzFmMWUxLTIxNWMtMzk4ZC01NDY5LTcyODFkMWI0OGI1ZSUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuMDE3Nzc3OSUyQyUyMmxvbmdpdHVkZSUyMiUzQS04Ny45NDczOTI3JTdE&ps=1&st=690&surfaceName=
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ ...button, background: "#06c167" }}
+        >
+          Order on Uber Eats
+        </a>
+      </div>
     </div>
   );
 }
+
+const container = {
+  maxWidth: "500px",
+  margin: "0 auto",
+  padding: "40px 20px",
+  textAlign: "center",
+};
+
+const note = {
+  fontSize: "14px",
+  color: "#666",
+  marginBottom: "30px",
+};
+
+const buttons = {
+  display: "flex",
+  flexDirection: "column",
+  gap: "15px",
+};
+
+const button = {
+  color: "white",
+  padding: "18px",
+  fontSize: "18px",
+  fontWeight: "bold",
+  textDecoration: "none",
+  borderRadius: "10px",
+};
+
+export default App;
