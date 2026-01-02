@@ -26,6 +26,7 @@ function App() {
 
         <div style={buttons}>
           <a
+            
   href="https://order.spoton.com/so-ricanmex-frappes-and-grill-23636/milwaukee-wi/680ff8a154f401ec3b2a7f23"
   target="_blank"
   rel="noopener noreferrer"
@@ -50,23 +51,34 @@ function App() {
           style={{ ...button, background: "#06c167" }}
         >
           Order on Uber Eats
-        </a>
+          </a>
+        </div>
       </div>
     </div>
   );
 }
 
+export default App;
+
+/* ===== STYLES (ALL BELOW) ===== */
+
 const container = {
-  maxWidth: "500px",
-  margin: "0 auto",
-  padding: "40px 20px",
-  textAlign: "center",
+  minHeight: "100vh",
+  background: "linear-gradient(135deg, #ce1126 0%, #ffffff 50%, #0038a8 100%)",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "20px",
 };
 
-const note = {
-  fontSize: "14px",
-  color: "#666",
-  marginBottom: "30px",
+const card = {
+  background: "white",
+  width: "100%",
+  maxWidth: "500px",
+  padding: "30px 20px",
+  borderRadius: "16px",
+  boxShadow: "0 10px 30px rgba(0,0,0,0.15)",
+  textAlign: "center",
 };
 
 const buttons = {
@@ -84,4 +96,20 @@ const button = {
   borderRadius: "10px",
 };
 
-export default App;
+const note = {
+  fontSize: "14px",
+  color: "#666",
+  marginBottom: "25px",
+};
+
+const info = {
+  margin: "6px 0",
+  fontSize: "14px",
+  color: "#333",
+};
+
+const link = {
+  color: "#0038a8",
+  textDecoration: "none",
+  fontWeight: "bold",
+};
