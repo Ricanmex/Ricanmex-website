@@ -31,7 +31,7 @@ function App() {
         </a>
 
         <a
-          href="https://www.ubereats.com/https://www.ubereats.com/store/ricanmex-frappes-&-grill/O6GRJ24OWEaPINFcVX-aJw?d=2026-01-02&diningMode=DELIVERY&et=720&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjEzMTQlMjBTJTIwTGF5dG9uJTIwQmx2ZCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMjVmNzFmMWUxLTIxNWMtMzk4ZC01NDY5LTcyODFkMWI0OGI1ZSUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBNDMuMDE3Nzc3OSUyQyUyMmxvbmdpdHVkZSUyMiUzQS04Ny45NDczOTI3JTdE&ps=1&st=690&surfaceName=
+          href="https://www.ubereats.com/https://www.ubereats.com/
           target="_blank"
           rel="noopener noreferrer"
           style={{ ...button, background: "#06c167" }}
