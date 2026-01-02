@@ -13,7 +13,7 @@ function App() {
 
       <div style={buttons}>
         <a
-  href="https//order.spoton.com/so-ricanmex-frappes-and-grill-23636/milwaukee-wi/680ff8a154f401ec3b2a7f23"
+  href="https://order.spoton.com/so-ricanmex-frappes-and-grill-23636/milwaukee-wi/680ff8a154f401ec3b2a7f23"
   target="_blank"
   rel="noopener noreferrer"
   style={{ ...button, background: "#000" }}
