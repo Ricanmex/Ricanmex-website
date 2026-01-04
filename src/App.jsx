@@ -56,6 +56,19 @@ function App() {
     🚗 Uber Eats
   </a>
 </div>
+<p
+  style={{
+    marginTop: "16px",
+    fontSize: "14px",
+    color: "#cccccc",
+    textAlign: "center",
+    maxWidth: "600px",
+    marginInline: "auto"
+  }}
+>
+  ℹ️ Prices for delivery may be higher than in-store pickup due to third-party service fees.
+</p>
+
 
 
   <p>
