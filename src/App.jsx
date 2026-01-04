@@ -53,7 +53,7 @@ function App() {
     rel="noopener noreferrer"
     style={buttonStyle}
   >
-    🍔 Uber Eats
+    🚗 Uber Eats
   </a>
 </div>
 
