@@ -2,12 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ricanmex-site</title>
+
+    <!-- ✅ SEO TITLE (VERY IMPORTANT) -->
+    <title>Ricanmex Frappes & Grill | Puerto Rican Restaurant in Milwaukee, WI</title>
+
+    <!-- ✅ SEO DESCRIPTION -->
+    <meta
+      name="description"
+      content="Ricanmex Frappes & Grill is a Puerto Rican restaurant in Milwaukee, WI. Call (414) 553-3748 to order pickup or delivery via DoorDash & Uber Eats."
+    />
+
+    <!-- ✅ LOCAL SEO KEYWORDS -->
+    <meta
+      name="keywords"
+      content="Puerto Rican restaurant Milwaukee, Ricanmex, mofongo Milwaukee, jibarito Milwaukee, Latin food Milwaukee"
+    />
+
+    <!-- ✅ LOCAL BUSINESS SCHEMA (BIG GOOGLE BOOST) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Ricanmex Frappes & Grill",
+      "telephone": "+1-414-553-3748",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4350 S 27th St",
+        "addressLocality": "Milwaukee",
+        "addressRegion": "WI",
+        "postalCode": "53221",
+        "addressCountry": "US"
+      },
+      "servesCuisine": ["Puerto Rican", "Caribbean", "Latin"],
+      "priceRange": "$$",
+      "url": "https://ricanmex.com"
+    }
+    </script>
+
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- React entry -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
